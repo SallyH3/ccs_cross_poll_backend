@@ -1,18 +1,26 @@
 # README
 
-
 ### Overview
+This is the repository for the backend application which works in conjunction with our [front end application](https://github.com/csheesley/ccs-frontend), to create the full functioning website - **[inCrisis.herokuapp.com](https://incrisis.herokuapp.com/)**
 
-### Front End Repo
-- https://github.com/csheesley/ccs-frontend
+Visitors who use our application can quickly and easily find the closest Walk-In Crisis Center based on their location, which can be manually entered or gathered from the browser. Our backend application incorporates the latitude and longitude of the user with the Google Distance Matrix API, returning ordered crisis centers based on proximity. Once a user finds the nearest walk-in center, there are links to choose the preferred mode of transportation to that center (driving, walking, biking, or public transit), along with an option to receive a text notification containing information about the closest center.
+
+Due to the sensitive nature of our application, no user information is stored or tracked. Ease of use, accessibility, and reducing barriers were of top concern.
+
+### Links
+Production Link: https://incrisis.herokuapp.com/  
+Front End Repository: https://github.com/csheesley/ccs-frontend
 
 ### Key Learnings
+- Consuming and Building API endpoints
+- Transforming and sorting data
 - Configuration of Circle CI
 - Implementation of Twilio
 - Documentation and Communication with Front End Team
 
 ### Endpoint Documentation
-All endpoints are preceded by the following url: https://cohelp-backend.herokuapp.com  
+All endpoints are preceded by the following url: https://cohelp-backend.herokuapp.com
+
 ---
 **GET /api/v1/locations**  
 Returns all crisis center locations in our database, along with their associated information.
@@ -155,21 +163,24 @@ body:
 ```
 Example SMS Message:
 
+<img width="479" alt="Screen Shot 2019-07-24 at 8 54 20 AM" src="https://user-images.githubusercontent.com/43529041/61804176-b27fff80-adf0-11e9-94f4-f6adb9a5d5aa.png">
+
 ---
 ### Versions
-Ruby 2.4.1
-Rails 5.2.3
-Bundler 2.0.2
+Ruby 2.4.1  
+Rails 5.2.3  
+Bundler 2.0.2  
 
 ### Local Setup
-Install Dependencies
+Install Dependencies  
 `$ bundle install`
 
-Database Setup
+Database Setup  
 `$ rails db:{create, migrate, seed}`
 
 ### Testing
-`$ rspec`
+`$ rspec` - will run the full test suite.  
+`VCR` is being used to mock out API calls in tests.  
 
 ### Circle CI
 [![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)

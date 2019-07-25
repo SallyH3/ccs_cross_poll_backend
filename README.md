@@ -162,6 +162,7 @@ body:
 }
 ```
 Example SMS Message:
+
 <img width="479" alt="Screen Shot 2019-07-24 at 8 54 20 AM" src="https://user-images.githubusercontent.com/43529041/61804176-b27fff80-adf0-11e9-94f4-f6adb9a5d5aa.png">
 
 ---

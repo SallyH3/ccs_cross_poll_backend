@@ -167,20 +167,20 @@ Example SMS Message:
 
 ---
 ### Versions
-Ruby 2.4.1
-Rails 5.2.3
-Bundler 2.0.2
+Ruby 2.4.1  
+Rails 5.2.3  
+Bundler 2.0.2  
 
 ### Local Setup
-Install Dependencies
+Install Dependencies  
 `$ bundle install`
 
-Database Setup
+Database Setup  
 `$ rails db:{create, migrate, seed}`
 
 ### Testing
-`$ rspec` - will run the full test suite.
-`VCR` is being used to mock out API calls in tests.
+`$ rspec` - will run the full test suite.  
+`VCR` is being used to mock out API calls in tests.  
 
 ### Circle CI
 [![CircleCI](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend.svg?style=svg)](https://circleci.com/gh/CSheesley/ccs_cross_poll_backend)

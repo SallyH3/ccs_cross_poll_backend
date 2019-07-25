@@ -12,7 +12,8 @@
 - Documentation and Communication with Front End Team
 
 ### Endpoint Documentation
-All endpoints are preceded by the following url: https://cohelp-backend.herokuapp.com  
+All endpoints are preceded by the following url: https://cohelp-backend.herokuapp.com 
+
 ---
 **GET /api/v1/locations**  
 Returns all crisis center locations in our database, along with their associated information.

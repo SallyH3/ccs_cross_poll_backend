@@ -8,7 +8,7 @@ Visitors who use our application can quickly and easily find the closest Walk-In
 Due to the sensitive nature of our application, no user information is stored or tracked. Ease of use, accessibility, and reducing barriers were of top concern.
 
 ### Links
-Production Link: https://incrisis.herokuapp.com/   
+Production Link: https://incrisis.herokuapp.com/  
 Front End Repository: https://github.com/csheesley/ccs-frontend
 
 ### Key Learnings

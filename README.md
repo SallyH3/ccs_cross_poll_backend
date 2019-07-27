@@ -8,7 +8,7 @@ Visitors who use our application can quickly and easily find the closest Walk-In
 Due to the sensitive nature of our application, no user information is stored or tracked. Ease of use, accessibility, and reducing barriers were of top concern.
 
 ### Links
-Production Link: https://incrisis.herokuapp.com/  
+Production Link: https://incrisis.herokuapp.com/   
 Front End Repository: https://github.com/csheesley/ccs-frontend
 
 ### Key Learnings
@@ -161,7 +161,7 @@ body:
   "response": "Text Message Sent"
 }
 ```
-Example SMS Message:  
+Example SMS Message:    
 
 <img width="479" alt="Screen Shot 2019-07-24 at 8 54 20 AM" src="https://user-images.githubusercontent.com/43529041/61804176-b27fff80-adf0-11e9-94f4-f6adb9a5d5aa.png">
 
@@ -179,7 +179,7 @@ Database Setup
 `$ rails db:{create, migrate, seed}`
 
 ### Testing
-`$ rspec` - will run the full test suite.  
+`$ rspec` - will run the full test suite.   
 `VCR` is being used to mock out API calls in tests.  
 
 ### Circle CI

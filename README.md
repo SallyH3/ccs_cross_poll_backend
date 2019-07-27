@@ -179,7 +179,7 @@ Database Setup
 `$ rails db:{create, migrate, seed}`
 
 ### Testing
-`$ rspec` - will run the full test suite.   
+`$ rspec` - will run the full test suite.    
 `VCR` is being used to mock out API calls in tests.  
 
 ### Circle CI

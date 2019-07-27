@@ -18,7 +18,7 @@ Front End Repository: https://github.com/csheesley/ccs-frontend
 - Implementation of Twilio
 - Documentation and Communication with Front End Team
 
-### Endpoint Documentation
+### Endpoint Documentation  
 All endpoints are preceded by the following url: https://cohelp-backend.herokuapp.com
 
 ---
